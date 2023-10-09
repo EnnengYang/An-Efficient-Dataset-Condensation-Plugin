@@ -22,7 +22,7 @@ Thanks!
 
 Our efficient dataset distillation plugin is **easy to implement**. A general implementation framework is as follows:
 
-### Dataset Condensation (e.g., [DC](https://openreview.net/pdf?id=mSAKhLYLSsl), [DSA](https://proceedings.mlr.press/v139/zhao21a/zhao21a.pdf), [DM](https://arxiv.org/pdf/2110.04181.pdf), [MTT](https://arxiv.org/pdf/2203.11932.pdf), ...)
+### Traditional Dataset Condensation (e.g., [DC](https://openreview.net/pdf?id=mSAKhLYLSsl), [DSA](https://proceedings.mlr.press/v139/zhao21a/zhao21a.pdf), [DM](https://arxiv.org/pdf/2110.04181.pdf), [MTT](https://arxiv.org/pdf/2203.11932.pdf), ...)
 ```
 # Step1: Hyper-parameter
 num_classes: The number of classes in the dataset, for example, CIFAR10 is 10.    
