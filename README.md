@@ -1,4 +1,4 @@
-# Efficient-Dataset-Condensation-NeurIPS-2023
+# Efficient-Dataset-Condensation-Plugin-NeurIPS-2023
 
 A repository of **'[An Efficient Dataset Condensation Plugin and Its Application to Continual Learning. NeurIPS, 2023]()'**.
 
