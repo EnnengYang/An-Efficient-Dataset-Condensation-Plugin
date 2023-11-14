@@ -1,6 +1,6 @@
-# Efficient-Dataset-Condensation-Plugin-NeurIPS-2023
+# An-Efficient-Dataset-Condensation-Plugin-NeurIPS-2023
 
-A repository of **'[An Efficient Dataset Condensation Plugin and Its Application to Continual Learning. NeurIPS, 2023]()'**.
+A repository of **'[An Efficient Dataset Condensation Plugin and Its Application to Continual Learning. NeurIPS, 2023](https://openreview.net/pdf?id=Murj6wcjRw)'**.
 
 
 ## Abstract
@@ -9,12 +9,12 @@ A repository of **'[An Efficient Dataset Condensation Plugin and Its Application
 ## Citation
 If you find our paper or this resource helpful, please consider cite:
 ```
-@article{Efficient_DC_Plugin_NeurIPS_2023,
-  title={An Efficient Dataset Condensation Plugin and Its Application to Continual Learning},
-  author={Enneng Yang and Li Shen and Zhenyi Wang and Tongliang Liu and Guibing Guo},
-  journal={Advances in Neural Information Processing Systems},
-  year={2023}
-}
+@inproceedings{An_Efficient_DC_Plugin_NeurIPS_2023,
+    title={An Efficient Dataset Condensation Plugin and Its Application to Continual Learning},
+    author={Yang, Enneng and Shen, Li and Wang, Zhenyi and Liu, Tongliang and Guo, Guibing},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023}
+  }
 ```
 Thanks!
 
@@ -46,7 +46,7 @@ loss.backward()
 optimizer_img.step()
 ```
 
-### Our Efficient Dataset Condensation (e.g., LoDC, LoDSA, LoDM, LoMTT, ...)
+### Our Efficient Dataset Condensation (e.g., LoDC, LoDSA, LoDM, LoMTT, ...) [paper](https://openreview.net/pdf?id=Murj6wcjRw)
 
 ```
 # Step1: Hyper-parameter
@@ -95,13 +95,13 @@ Run [MTT](https://arxiv.org/pdf/2203.11932.pdf)
 > python buffer.py <br>
 > python main_MTT.py
 
-Run Our LoDC
+Run Our [LoDC](https://openreview.net/pdf?id=Murj6wcjRw)
 > python main_LoDC.py
 
-Run Our LoDM
+Run Our [LoDM](https://openreview.net/pdf?id=Murj6wcjRw)
 > python main_LoDM.py
 
-Run Our LoMTT
+Run Our [LoMTT](https://openreview.net/pdf?id=Murj6wcjRw)
 > python buffer.py <br>
 > python main_LoMTT.py
 
